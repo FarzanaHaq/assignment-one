@@ -8,6 +8,8 @@ width: 1200px;
 height: 600px;
 border-radius: 16px;    
 margin: 50px auto 1px auto;
+background-size: contain;
+background-repeat: no-repeat;
 }
 
 .greeting {
@@ -15,7 +17,7 @@ color: #FFF;
 text-align: center;
 font-size: 32px;
 font-weight: 400;
-padding-top: 200px;
+padding-top: 150px;
 padding-bottom: 0;
 }
 
@@ -189,7 +191,7 @@ line-height: normal;
 padding-bottom: 0;
 }
 
-#coming-soon {
+.coming-soon {
 color: #070211;
 font-family: Merriweather;
 font-size: 48px;

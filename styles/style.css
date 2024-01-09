@@ -26,7 +26,6 @@ color: #FFF;
 text-align: center;
 font-size: 72px;
 font-weight: 900;
-padding-top: 0;
 }
 
 .off {
@@ -34,8 +33,9 @@ color: #F00;
 text-align: center;
 font-size: 88px;
 font-weight: 700;
-padding-top: 100px;
-padding-bottom: 0px;
+padding-bottom: 0;
+margin-bottom: 50px;
+margin-top: 50px;
 }
 
 .better {
@@ -43,7 +43,7 @@ color: #F00;
 text-align: center;;
 font-size: 24px;
 font-weight: 500;
-padding-top: 0px;
+margin-bottom: 5px;
 }
 
 .all {
@@ -51,17 +51,17 @@ color: #070211;
 text-align: center;
 font-size: 48px;
 font-weight: 700;
-padding-top: 1px;
-padding-bottom: 48px;
+margin-top: 1px;
 }
 
 .happy-img {
-    width: 802.9px;
+width: 800px;
 height: 500px;
 display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 120px;
+margin-top: 80px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 120px;
 }
 
 .section-mid {
@@ -78,6 +78,7 @@ width: 600px;
 color: rgba(255, 255, 255, 0.80);
 font-size: 18px;
 font-weight: 400;
+margin-bottom: 35px;
 }
 
 .mid {
@@ -97,6 +98,7 @@ height: 464.662px;
 font-size: 64px;;
 font-weight: 900;
 padding-bottom: 5px;
+margin-bottom: 30px;
 }
 
 .mid-button {
@@ -265,7 +267,7 @@ font-weight: 900;
 color: black;
 cursor: pointer;
 background-color: gray;
-border: 1px solid lightgray;
+border: 2px solid lightgray;
 border-radius: 15px;
 }
 
@@ -377,4 +379,10 @@ footer {
     width: 24px;
     height: 24px;
     padding-right: 16px;
+}
+
+
+hr {
+    height: 0px;
+    color: gray;
 }
